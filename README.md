@@ -1,5 +1,6 @@
 # Helve — Hermes Agent Plugin
 
+[![Hermes Marketplace](https://img.shields.io/badge/Hermes%20Marketplace-official%20catalog-1e40af)](https://hermes-agent.nousresearch.com/marketplace/helve)
 [![CI](https://github.com/helve-dev/hermes-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/helve-dev/hermes-plugin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -11,6 +12,14 @@ Give [Hermes Agent](https://github.com/NousResearch/hermes-agent) native access 
 - **Zero Python dependencies**: pure Python standard library (`urllib.request`), zero conflicts with Hermes's core lockfile.
 
 ## Install
+
+Helve is listed in the official [NousResearch Hermes Marketplace](https://hermes-agent.nousresearch.com/marketplace/helve):
+
+```bash
+hermes plugins install helve
+```
+
+Or install directly from GitHub:
 
 ```bash
 hermes plugins install https://github.com/helve-dev/hermes-plugin --enable
